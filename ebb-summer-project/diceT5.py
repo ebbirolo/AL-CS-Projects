@@ -94,11 +94,6 @@ def play_game(player_name):
         else:
             print("Sorry, Wrong Guess")
 
-
-#####
-
-#####
-
         print("")
         print("Scores after roll: ", rounds)
         print(f"Bonus Points: {bonus_points}")
