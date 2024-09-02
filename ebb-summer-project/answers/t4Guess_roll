@@ -1,0 +1,14 @@
+def guess_roll():
+    valid = False
+    while not valid:
+        try:
+            guess=int(input("What is your Guess: "))
+            if guess >= 1 and guess <= 6:
+                valid = True
+            else:
+                print("Invalid Guess")
+                valid = False
+        except:
+            print("Invalid Data Type")
+            valid = False
+    return guess
